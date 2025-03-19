@@ -18,7 +18,7 @@ const SearchBar = ({ search, handleInput, handleSubmit }) => {
           <button
             type="submit"
             aria-label="Search"
-            className="ml-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+            className="ml-2 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600"
           >
             Search
           </button>

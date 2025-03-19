@@ -30,7 +30,7 @@ const MealCard = ({ meals = [], search }) => {
                 />
                 <h3 className="text-lg font-bold mt-2">{meal.strMeal}</h3>
                 <button
-                  className="mt-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-all"
+                  className="mt-2 px-4 py-2 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition-all flex items-center"
                   onClick={() => {
                     console.log("Meal Selected:", meal.idMeal); // Debugging log
                     setSelectedMeal(meal.idMeal);
