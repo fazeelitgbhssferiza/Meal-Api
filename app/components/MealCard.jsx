@@ -28,9 +28,10 @@ const MealCard = ({ meals = [], search }) => {
                   className="w-full h-48 object-cover rounded-lg"
                   loading="lazy"
                 />
-                <h3 className="text-lg font-bold mt-2">{meal.strMeal}</h3>
+                <h3 className="text-lg text-center font-bold mt-2">{meal.strMeal}</h3>
+                <div className="flex justify-center mt-4">
                 <button
-                  className="mt-2 px-4 py-2 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition-all flex items-center"
+                  className="mt-2 px-4 py-2 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition-all "
                   onClick={() => {
                     console.log("Meal Selected:", meal.idMeal); // Debugging log
                     setSelectedMeal(meal.idMeal);
@@ -38,6 +39,7 @@ const MealCard = ({ meals = [], search }) => {
                 >
                   View Recipe
                 </button>
+                </div>
               </div>
             ))}
           </div>

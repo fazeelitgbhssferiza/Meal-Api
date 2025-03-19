@@ -121,7 +121,7 @@ const MealInfo = ({ idMeal, onBack }) => {
 
       <div className="mt-8 text-center">
         <button
-          className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-all"
+          className="px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-all"
           onClick={onBack}
           aria-label="Go back to meal list"
         >
