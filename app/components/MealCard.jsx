@@ -14,11 +14,11 @@ const MealCard = ({ meals = [], search }) => {
 
   return (
     <div>
-      {selectedMeal ? (
+        {selectedMeal ? (
         <MealInfo idMeal={selectedMeal} onBack={() => setSelectedMeal(null)} />
       ) : (
         <>
-          <p className="text-lg font-bold mt-2">Category: {search}</p>
+          <p className="text-lg font-bold mt-2">Search Result: {search}</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
             {meals.map((meal) => (
               <div key={meal.idMeal} className="border rounded-lg p-4 shadow-md">

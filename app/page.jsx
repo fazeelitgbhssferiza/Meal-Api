@@ -5,7 +5,7 @@ import MainPage from "./MainPage";
 export default function App() {
   return (
     <>
-      
+      <h1><p className="text-center text-3xl font-bold mt-2">FOOD RECIPE APP</p></h1>
       <MainPage/>
       
     </>
